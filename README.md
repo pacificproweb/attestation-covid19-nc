@@ -33,7 +33,7 @@ Le code à déployer sera le contenu du dossier `dist`
 
 ## Crédits
 
-Ce projet a été réalisé à partir d'un fork du dépôt [attestation-deplacement-derogatoire-covid-19](https://github.com/LAB-MI/attestation-deplacement-derogatoire-covid-19).
+Ce projet a été réalisé à partir d'une copie du dépôt [attestation-deplacement-derogatoire-covid-19](https://github.com/LAB-MI/attestation-deplacement-derogatoire-covid-19) et adapté au besoin de l'attestation calédonienne.
 
 Les projets open source suivants ont été utilisés pour le développement de ce
 service :
