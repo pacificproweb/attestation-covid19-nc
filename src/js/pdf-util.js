@@ -95,8 +95,8 @@ export async function generatePdf (profile, reasons, pdfBase) {
   }
 
   drawText(profile.city, 320, 203, locationSize)
-  drawText(`${creationDate}`, 425, 203, 11)
-  drawText(`${creationHour}`, 495, 203, 11)
+  drawText(`${datesortie}`, 425, 203, 11)
+  drawText(`${heuresortie}`, 495, 203, 11)
   drawText(`${firstname} ${lastname}`, 350, 150, 11)
 
   // const shortCreationDate = `${creationDate.split('/')[0]}/${
