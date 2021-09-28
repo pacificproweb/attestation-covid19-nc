@@ -2,17 +2,17 @@ import { generateQR } from './util'
 import { PDFDocument, rgb, StandardFonts } from 'pdf-lib'
 
 const ys = {
-  travail: 516,
-  sante: 410,
-  famille: 360,
-  handicap: 478,
-  judiciaire: 252,
-  missions: 226,
+  travail: 540,
+  sante: 445,
+  famille: 405,
+  handicap: 499,
+  judiciaire: 310,
+  missions: 269,
   transit: 404,
   animaux: 370,
-  courses: 464,
-  sport: 320,
-  rassemblement: 190,
+  courses: 500,
+  sport: 377,
+  ceremonie: 241,
   demarche: 145,
 }
 
@@ -73,15 +73,15 @@ export async function generatePdf (profile, reasons, pdfBase) {
     page1.drawText(text, { x, y, size, font })
   }
 
-  drawText(`${firstname} ${lastname}`, 120, 600)
-  drawText(birthday, 120, 585)
+  drawText(`${firstname} ${lastname}`, 100, 622)
+  drawText(birthday, 100, 609)
   // drawText(placeofbirth, 200, 585)
-  drawText(`${address} ${zipcode} ${city}`, 130, 572)
+  drawText(`${address} ${zipcode} ${city}`, 100, 595)
 
   reasons
     .split(', ')
     .forEach(reason => {
-      drawText('x', 72, ys[reason], 12)
+      drawText('x', 43, ys[reason], 12)
     })
 
   let locationSize = getIdealFontSize(font, profile.city, 83, 7, 11)
@@ -94,10 +94,10 @@ export async function generatePdf (profile, reasons, pdfBase) {
     locationSize = 7
   }
 
-  drawText(profile.city, 320, 203, locationSize)
-  drawText(`${datesortie}`, 425, 203, 11)
-  drawText(`${heuresortie}`, 495, 203, 11)
-  drawText(`${firstname} ${lastname}`, 350, 150, 11)
+  drawText(profile.city, 80, 203, locationSize)
+  drawText(`${datesortie}`, 150, 203, 11)
+  drawText(`${heuresortie}`, 230, 203, 11)
+  drawText(`${firstname} ${lastname}`, 360, 203, 11)
 
   // const shortCreationDate = `${creationDate.split('/')[0]}/${
   //   creationDate.split('/')[1]
@@ -117,12 +117,12 @@ export async function generatePdf (profile, reasons, pdfBase) {
 
   // page1.drawText(qrTitle1 + '\n' + qrTitle2, { x: 440, y: 630, size: 6, font, lineHeight: 10, color: rgb(1, 1, 1) })
 
-  page1.drawImage(qrImage, {
-    x: page1.getWidth() - 450,
-    y: 130,
-    width: 64,
-    height: 64,
-  })
+  // page1.drawImage(qrImage, {
+  //   x: page1.getWidth() - 250,
+  //   y: 160,
+  //   width: 50,
+  //   height: 50,
+  // })
 
   pdfDoc.addPage()
   const page2 = pdfDoc.getPages()[1]

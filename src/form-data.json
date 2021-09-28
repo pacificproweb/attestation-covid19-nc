@@ -106,31 +106,35 @@
       "items": [
         {
           "code": "travail",
-          "label": "<strong> 1. Activité professionnelle </strong> <br> Déplacements entre le domicile et le lieu d’exercice de l’activité professionnelle, lorsqu’ils sont indispensables à l’exercice d’activités ne pouvant être organisées sous forme de télétravail (sur justificatif permanent) ou déplacements professionnels ne pouvant être différés <a class=\"footnote\" href=\"#footnote2\">[2]</a> ;"
+          "label": "<strong> 1. Activité professionnelle </strong> <br> Déplacements entre le domicile et le lieu d’exercice de l’activité professionnelle, lorsqu’ils sont indispensables à l’exercice d’activités ne pouvant être organisées sous forme de télétravail (sur justificatif permanent) ou déplacements professionnels ne pouvant être différés <a class=\"footnote\" href=\"#footnote2\">[2]</a> "
         },
         {
           "code": "courses",
-          "label": "<strong> 2. Achats professionnel et de première nécessité</strong> <br> Déplacement pour effectuer des achats de fournitures nécessaires à l’activité professionnelle et des achats de première nécessité <a class=\"footnote\" href=\"#footnote3\">[3]</a> dans des établissements dont les activités demeurent autorisées (liste sur : <a href=\"http://www.nouvelle-caledonie.gouv.fr/\">http://www.nouvelle-caledonie.gouv.fr/</a>) ;"
+          "label": "<strong> 2. Achats professionnel et de première nécessité</strong> <br> Déplacement pour effectuer des achats de fournitures nécessaires à l’activité professionnelle et des achats de première nécessité <a class=\"footnote\" href=\"#footnote3\">[3]</a> dans des établissements dont les activités demeurent autorisées (liste sur : <a href=\"http://www.nouvelle-caledonie.gouv.fr/\">http://www.nouvelle-caledonie.gouv.fr/</a>). "
         },
         {
           "code": "sante",
-          "label": "<strong>  3. Consultation et soin </strong> <br> Consultations et soins ne pouvant être assurés à distance et ne pouvant être différés ; consultations et soins des patients atteints d'une affection de longue durée et rendez-vous dans un centre de vaccination contre le virus du covid-19 ;"
+          "label": "<strong>  3. Consultation et soin </strong> <br> Consultations et soins ne pouvant être assurés à distance et ne pouvant être différés ; consultations et soins des patients atteints d'une affection de longue durée et rendez-vous dans un centre de vaccination contre le virus du covid-19. "
         },
         {
           "code": "famille",
-          "label": "<strong> 4. Motif familial impérieux, personnes vulnérables ou précaires ou gardes d’enfants </strong> <br> Déplacement pour motif familial impérieux, pour l’assistance aux personnes vulnérables ou la garde d’enfants <a class=\"footnote\" href=\"#footnote1\">[4]</a> ;"
+          "label": "<strong> 4. Motif familial impérieux, personnes vulnérables ou précaires ou gardes d’enfants </strong> <br> Déplacement pour motif familial impérieux, pour l’assistance aux personnes vulnérables ou la garde d’enfants <a class=\"footnote\" href=\"#footnote4\">[4]</a> "
         },
         {
           "code": "sport",
-          "label": " <strong> 5. Déplacements brefs </strong> <br> Déplacements brefs, dans la limite d'une heure quotidienne et dans un rayon maximal d'un kilomètre autour du domicile, liés soit à l'activité physique individuelle des personnes, à l'exclusion de toute pratique sportive collective et de toute proximité avec d'autres personnes, soit à la promenade avec les personnes de la même famille regroupées dans un même domicile, soit aux besoins des animaux de compagnie. ;"
+          "label": " <strong> 5. Déplacements brefs </strong> <br> Déplacements brefs, dans la limite d'une heure quotidienne et dans un rayon maximal d'un kilomètre autour du domicile, liés soit à l'activité physique individuelle des personnes, à l'exclusion de toute pratique sportive collective et de toute proximité avec d'autres personnes, soit à la promenade avec les personnes de la même famille regroupées dans un même domicile, soit aux besoins des animaux de compagnie. "
         },
         {
           "code": "judiciaire",
-          "label": "<strong> 6. Convocation judiciaire ou administrative </strong> <br> Déplacements pour répondre à une convocation judiciaire ou administrative. ;"
+          "label": "<strong> 6. Convocation judiciaire ou administrative </strong> <br> Déplacements pour répondre à une convocation judiciaire ou administrative. "
         },
         {
           "code": "missions",
-          "label": "<strong> 7. Mission d’intérêt général </strong> <br> Participation à des missions d’intérêt général sur demande de l’autorité administrative ;"
+          "label": "<strong> 7. Mission d’intérêt général </strong> <br> Participation à des missions d’intérêt général sur demande de l’autorité administrative. "
+        },
+        {
+          "code": "ceremonie",
+          "label": "<strong> 8. Cérémonie funéraire </strong> <br>  Participation à une cérémonie de mise en terre ou de crémation <a class=\"footnote\" href=\"#footnote5\">[5]</a> "
         }
       ]
     },

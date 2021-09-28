@@ -31,5 +31,5 @@ export function addSlash (str) {
 export function addVersion (version) {
   document.getElementById(
     'version',
-  ).innerHTML = `${new Date().getFullYear()} - ${version}`
+  ).innerHTML = `${new Date().getFullYear()} - 2.1.2`
 }

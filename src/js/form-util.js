@@ -2,7 +2,7 @@ import removeAccents from 'remove-accents'
 
 import { $, $$, downloadBlob } from './dom-utils'
 import { addSlash, getFormattedDate } from './util'
-import pdfBase from '../certificate4.pdf'
+import pdfBase from '../certificate5.pdf'
 import { generatePdf } from './pdf-util'
 import SecureLS from 'secure-ls'
 
