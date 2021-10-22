@@ -122,19 +122,11 @@
         },
         {
           "code": "sport",
-          "label": " <strong> 5. Déplacements brefs </strong> <br> Déplacements brefs, dans la limite d'une heure quotidienne et dans un rayon maximal d'un kilomètre autour du domicile, liés soit à l'activité physique individuelle des personnes, à l'exclusion de toute pratique sportive collective et de toute proximité avec d'autres personnes, soit à la promenade avec les personnes de la même famille regroupées dans un même domicile, soit aux besoins des animaux de compagnie. "
-        },
-        {
-          "code": "judiciaire",
-          "label": "<strong> 6. Convocation judiciaire ou administrative </strong> <br> Déplacements pour répondre à une convocation judiciaire ou administrative. "
-        },
-        {
-          "code": "missions",
-          "label": "<strong> 7. Mission d’intérêt général </strong> <br> Participation à des missions d’intérêt général sur demande de l’autorité administrative. "
+          "label": " <strong> 5. Déplacements brefs </strong> <br> Déplacements brefs, dans la limite d'une heure quotidienne et dans un rayon maximal d'un kilomètre autour du domicile, liés soit à l'activité physique individuelle des personnes, à l'exclusion de toute pratique sportive collective et de toute proximité avec d'autres personnes, soit à la promenade avec les personnes regroupées dans un même domicile, soit aux besoins des animaux de compagnie."
         },
         {
           "code": "ceremonie",
-          "label": "<strong> 8. Cérémonie funéraire </strong> <br>  Participation à une cérémonie de mise en terre ou de crémation <a class=\"footnote\" href=\"#footnote5\">[5]</a> "
+          "label": "<strong> 6. Cérémonie funéraire </strong> <br>  Participation à une cérémonie funéraire ou religieuse <a class=\"footnote\" href=\"#footnote5\">[5]</a> "
         }
       ]
     },

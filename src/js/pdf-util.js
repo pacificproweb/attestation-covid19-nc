@@ -2,17 +2,17 @@ import { generateQR } from './util'
 import { PDFDocument, rgb, StandardFonts } from 'pdf-lib'
 
 const ys = {
-  travail: 540,
-  sante: 445,
-  famille: 405,
+  travail: 538,
+  sante: 447,
+  famille: 400,
   handicap: 499,
   judiciaire: 310,
   missions: 269,
   transit: 404,
   animaux: 370,
   courses: 500,
-  sport: 377,
-  ceremonie: 241,
+  sport: 374,
+  ceremonie: 308,
   demarche: 145,
 }
 
@@ -73,15 +73,15 @@ export async function generatePdf (profile, reasons, pdfBase) {
     page1.drawText(text, { x, y, size, font })
   }
 
-  drawText(`${firstname} ${lastname}`, 100, 622)
-  drawText(birthday, 100, 609)
+  drawText(`${firstname} ${lastname}`, 120, 616)
+  drawText(birthday, 120, 603)
   // drawText(placeofbirth, 200, 585)
-  drawText(`${address} ${zipcode} ${city}`, 100, 595)
+  drawText(`${address} ${zipcode} ${city}`, 120, 589)
 
   reasons
     .split(', ')
     .forEach(reason => {
-      drawText('x', 43, ys[reason], 12)
+      drawText('x', 72, ys[reason], 12)
     })
 
   let locationSize = getIdealFontSize(font, profile.city, 83, 7, 11)
@@ -94,9 +94,9 @@ export async function generatePdf (profile, reasons, pdfBase) {
     locationSize = 7
   }
 
-  drawText(profile.city, 80, 203, locationSize)
-  drawText(`${datesortie}`, 150, 203, 11)
-  drawText(`${heuresortie}`, 230, 203, 11)
+  drawText(profile.city, 110, 277, locationSize)
+  drawText(`${datesortie}`, 240, 277, 11)
+  drawText(`${heuresortie}`, 330, 277, 11)
   drawText(`${firstname} ${lastname}`, 360, 203, 11)
 
   // const shortCreationDate = `${creationDate.split('/')[0]}/${
